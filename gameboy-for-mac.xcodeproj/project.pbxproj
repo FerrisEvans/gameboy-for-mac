@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		ED5A5FF02BEB4A53003580F2 /* setup.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = setup.lua; sourceTree = "<group>"; };
 		EDABFB972BEB3DF2002566F9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		ED5A5FED2BEB4A15003580F2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				ED5A5FEE2BEB4A24003580F2 /* xmake */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		ED5A5FEE2BEB4A24003580F2 /* xmake */ = {
+			isa = PBXGroup;
+			children = (
+				ED5A5FEF2BEB4A2C003580F2 /* scripts */,
+			);
+			path = xmake;
+			sourceTree = "<group>";
+		};
+		ED5A5FEF2BEB4A2C003580F2 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				ED5A5FF02BEB4A53003580F2 /* setup.lua */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
 		EDABFB902BEB3DA4002566F9 = {
 			isa = PBXGroup;
 			children = (
+				ED5A5FED2BEB4A15003580F2 /* Tools */,
 				EDABFB972BEB3DF2002566F9 /* .gitignore */,
 			);
 			sourceTree = "<group>";
